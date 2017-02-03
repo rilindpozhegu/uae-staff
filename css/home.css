@@ -1,0 +1,225 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+body {
+  font-family: 'Montserrat-UltraLight';
+}
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+.header_home {
+  background-image: url('../img/header/header1-01.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  padding-top: 280px;
+  background-position: 42% 50%;
+}
+
+
+.header_home h1 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 70px;
+}
+
+.header_home p {
+  color: white;
+  font-family: 'Montserrat-UltraLight';
+  font-size: 41px;
+  margin-bottom: 20px;
+}
+
+.button_header_home1 {
+      height: 40px;
+    width: 160px;
+    border: none;
+    background-color: #f7941d;
+    border-radius: 5px;
+    font-family: "Montserrat-Bold";
+    color: white;
+}
+
+.button_header_home2 {
+      height: 40px;
+    width: 160px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-family: "Montserrat-Bold";
+    color: black;
+}
+
+
+
+
+/*
+///////////////////////////////////////////////////
+Tab Section 
+///////////////////////////////////////////////////
+*/
+
+.selection_section_home {
+  padding: 50px 0px;
+}
+
+.selection_section_home img {
+  width: 100%;
+}
+
+.selection_section_home h3 {
+  color: #272262;
+  font-family: 'Montserrat-Bold';
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.selection_section_home p {
+  font-size: 22px;
+}
+.tab-pane {
+  padding: 30px 0px;
+}
+
+.tab_buttons_home {
+  margin-bottom: 40px;
+}
+
+.tab_buttons_home button {
+  background-color: transparent;
+  color: #272262;
+  border: solid 1px #272262;
+  transition: ease-in-out 0.2s all;
+  border-radius: 5px;
+  height: 35px;
+  width: 140px;
+  font-family: 'Montserrat-Bold';
+}
+
+.tab_buttons_home button:hover {
+  background-color: #f7941d;
+  color: white;
+  border: #f7941d;
+}
+
+.tab_buttons_home button:active {
+  background-color: #f7941d;
+  color: white;
+  border: #f7941d;
+}
+
+.tab_buttons_home button:focus {
+  background-color: #f7941d;
+  color: white;
+  border: #f7941d;
+}
+
+.selection_section_home hr {
+    height: 2px;
+    color: #ccc;
+    background: #ccc;
+    font-size: 0;
+    border: 0;
+    padding-top: 1px;
+  }
+
+.owl-controls {
+  display: none !important;
+}
+
+#owl-demo3 {
+  padding: 0px 0px 30px;
+}
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .header_home {
+      padding-top: 150px;
+    }
+    .header_home h1 {
+      font-size: 50px;
+    }
+    .header_home p {
+      font-size: 20px;
+    }
+    .tab_buttons_home button {
+      width: 100% !important; 
+      font-size: 10px;
+    }
+    .selection_section_home {
+      padding: 20px 5px;
+    }
+    .selection_section_home p {
+      font-size: 15px;
+    }
+}

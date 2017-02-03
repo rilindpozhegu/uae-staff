@@ -1,0 +1,181 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+body {
+  font-family: 'Montserrat-UltraLight';
+}
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+
+.facts_section_all_pages {
+  background-image: url('../img/facts-bg-01.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 60px;
+}
+.facts_section_all_pages h2 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 40px;
+  font-family: 'Montserrat-Bold';
+}
+.facts_seciton_big_pan {
+  border: solid 1px white;
+  opacity: .8;
+  text-align: center;
+  padding: 90px;
+}
+
+.facts_seciton_big_pan h2 {
+  font-size: 40px;
+  font-family: 'Montserrat-UltraLight';
+}
+
+.facts_seciton_big_pan h2 span{
+  font-size: 40px;
+  font-family: 'Montserrat-Bold'
+}
+
+
+/*Small Panels on facts section !!*/
+
+
+.small_panel_facts {
+  border: solid 1px white;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0px 0px 30px;
+}
+
+.small_panel_facts img {
+  width: 100%;
+  border-right: solid 1px white;
+}
+
+.small_panel_facts h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .facts_section_all_pages {
+      padding: 40px 10px;
+    }
+    .facts_seciton_big_pan {
+      border: solid 1px white;
+      opacity: .8;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .facts_seciton_big_pan h2 {
+      font-size: 30px;
+      font-family: 'Montserrat-UltraLight';
+    }
+
+    .facts_seciton_big_pan h2 span{
+      font-size: 30px;
+      font-family: 'Montserrat-Bold'
+    }
+
+
+.facts_seciton_small-pan {
+  padding: 0px;
+}
+      .small_panel_facts {
+        border: solid 1px white;
+        text-align: center;
+        padding: 4px 20px;
+        margin: 30px 0px 0px;
+      }
+
+      .small_panel_facts img {
+        width: 100%;
+        border-right: solid 0px white;
+        margin-top: 10px;
+      }
+
+      .small_panel_facts h2 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 25px;
+      }
+      .small_panel_facts p {
+        font-size: 10px;
+      }
+}

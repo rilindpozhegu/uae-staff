@@ -1,0 +1,111 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+body {
+  font-family: 'Montserrat-UltraLight';
+}
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+.get_in_section {
+  padding: 50px 0px;
+}
+.get_q_panel1 {
+ text-align: center;
+ border-right: solid 1px #ccc;
+}
+.get_q_panel1 img {
+  width: 200px;
+}
+.get_q_panel1 p{
+  color: #6b7e87;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.get_q_panel1 button {
+  background-color: #f7941d;
+  color: white;
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Montserrat-Bold';
+  margin-top: 30px;
+}
+
+.get_q_panel2 {
+ text-align: center;
+}
+.get_q_panel2 img {
+  width: 200px;
+}
+.get_q_panel2 p{
+  color: #6b7e87;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.get_q_panel2 button {
+  background-color: #272262;
+  color: white;
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Montserrat-Bold';
+  margin-top: 30px;
+}

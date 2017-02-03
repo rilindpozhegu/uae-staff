@@ -1,0 +1,93 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+body {
+  font-family: 'Montserrat-UltraLight';
+}
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+.testimonial_section {
+  background-image: url('../img/testimonial-bg-01.png');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px 0px;
+}
+.testimonial_section h2 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.testimonial_grid {
+  padding: 0px 40px;
+}
+/*Small testimonial Style*/
+
+.small_testimonial_s{
+  background: white;
+  padding: 20px 20px 20px 0px;
+}
+
+.small_testimonial_s img {
+  margin-left: -70px;
+  border: solid 9px #2f3f58; 
+  border-radius: 100px;
+}

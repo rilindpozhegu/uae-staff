@@ -1,0 +1,181 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .navbar-fixed-top {
+        background-color: transparent;
+        border: none;
+        padding-top: 35px;
+      }
+}
+
+/*Collapsed*/
+
+.top-nav-collapse {
+  background-color: rgba(47, 56, 119, 0.58) !important;
+  padding-top: 10px !important;
+  transition: ease-in-out all 0.3s;
+}
+
+.top-nav-collapse img {
+  width: 150px !important;
+  transition: ease-in-out all 0.3s;
+  padding-top: 10px;
+}
+
+
+
+.navbar img {
+    width: 200px;
+  transition: ease-in-out all 0.3s;
+}
+
+.navbar-fixed-top {
+  background-color: transparent;
+  border: none;
+  padding-top: 35px;
+  transition: ease-in-out all 0.3s;
+}
+
+/*Ngjyra e linkave ne navigationbar*/
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f7941d;
+  font-family: 'Montserrat-Bold';
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .navbar-header img {
+      float: right;
+      width: 100px;
+      margin-right: 35px;
+    }
+    .navbar-fixed-top {
+      background-color: rgba(47, 56, 119, 0.78) !important; 
+      text-align: center;
+    }
+    .navbar-toggle {
+      float: left;
+      margin-left: 35px;
+      margin-top: 0px;
+      border: none;
+      background-color: transparent !important;
+    }
+    .navbar-toggle {
+      background-color: transparent !important;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #f7941d;
+      width: 25px;
+    }
+    .top-nav-collapse .navbar-toggle {
+      padding-top: 35px;
+      padding-bottom: 20px;
+    }
+    }
+    .top-nav-collapse img {
+      width: 100px !important;
+      transition: ease-in-out all 0.3s;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  }
